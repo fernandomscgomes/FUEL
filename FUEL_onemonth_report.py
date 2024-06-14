@@ -6,6 +6,8 @@ from pptx import Presentation
 from pptx.util import Inches
 from datetime import datetime
 
+idade = 18
+
 def load_csv_to_dataframe(file_path):
     """
     Load a CSV file into a pandas DataFrame.
